@@ -68,13 +68,19 @@ sudo grub2-mkconfig -o /boot/grub2/grub.cfg
 sudo reboot
 ```
 
+### check the current version after reboot
+
+```
+uname -r
+```
+
 ### remove the old kernels
 
 ```
 sudo yum remove kernel
 ```
 
-### check the current version
+### check
 
 ```
 rpm -qa kernel\* | sort
