@@ -20,9 +20,18 @@ sudo rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 ```
 
 ### enable elrepo-kernel
+Edit elrepo.repo.
 
 ```
-sudo cp files/elrepo.repo /etc/yum.repos.d/elrepo.repo
+$ sudo vi /etc/yum.repos.d/elrepo.repo
+```
+
+```ini
+----
+[elrepo-kernel]
+# **snip**
+-enabled=0
++enabled=1
 ```
 
 ### remove current kernels
