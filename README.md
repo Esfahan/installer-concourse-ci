@@ -1,5 +1,5 @@
-# Concourse CI
-This is a installer followings to use Concourse CI on CentOS7.x.
+# Installer for Concourse CI
+This is a installer to use Concourse CI on CentOS7.x.
 
 - docker 17.05.0-ce
 - docker-compose version 1.15.0
