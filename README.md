@@ -23,7 +23,7 @@ sudo rpm -Uvh http://www.elrepo.org/elrepo-release-7.0-2.el7.elrepo.noarch.rpm
 Edit elrepo.repo.
 
 ```
-$ sudo vi /etc/yum.repos.d/elrepo.repo
+sudo vi /etc/yum.repos.d/elrepo.repo
 ```
 
 ```ini
