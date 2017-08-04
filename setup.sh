@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # install docker-engine & docker-compose
-git clone https://github.com/Esfahan/installer-docker-compose.git
-bash ./installer-docker-compose/setup.sh
+git clone https://github.com/Esfahan/installer-docker-compose.git /tmp/installer-docker-compose
+bash /tmp/installer-docker-compose/setup.sh
 
 # create keys
 if [ ! -e keys ]; then
